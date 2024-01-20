@@ -1,0 +1,135 @@
+body{
+    background-color: #061014;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.title{
+text-transform: uppercase;
+    color: white;
+    text-shadow: 0 2px  2px black;
+}
+
+.header{
+    display: flex;
+    padding: 16px;
+    margin: 0 auto;
+   justify-content: space-between;
+   width: 90%;
+   max-width: 990px;
+   background-color: #05080a;
+   
+}
+
+.nav__click{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+   padding: 16px;
+  
+}
+
+.nav__click a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.nav__click--active{
+    background-color: rgb(211, 211, 20);  
+    border-radius: 6px;
+    
+}
+
+a.nav__click--active{
+    pointer-events: none;
+}
+
+a.nav__click--active{
+    color: #05080a;
+}
+
+
+
+.nav__click a:hover{
+    text-decoration: underline;
+    
+}
+
+.title__main{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    gap: 1rem;
+  
+}
+
+.section__list{
+    flex: 1;
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__l{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section__l li::marker{
+color: yellow;
+}
+
+
+.section__link{
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+.section__link:hover{
+    background-color: aqua;
+    
+}
+
+a.section__link:hover{
+    color: white;
+    
+}
+
+.title__h2{
+  letter-spacing: 2px;
+  border-bottom: 2px solid orange;
+}
+
+.preco{
+ font-size: 30px;
+}
+
